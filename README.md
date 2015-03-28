@@ -1,4 +1,4 @@
-# dev-sea-el — command line access to devtools
+# dev-sea-el — devtools CLI
 
 `dv` is a command line tool for accessing some functionality (mainly checks,
 builds, tests and packaging) from Hadley Wickham's terrific
