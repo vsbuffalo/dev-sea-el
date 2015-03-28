@@ -4,6 +4,32 @@
 builds, tests and packaging) from Hadley Wickham's terrific
 [devtools](https://github.com/hadley/devtools) package.
 
+Here's the basic functionality (so far):
+
+    dv -h
+    dv - command line devtools
+
+    Usage:
+      dv create <path> [--check --no-rstudio]
+      dv test [<pkg>]
+      dv install [<pkg>]
+      dv build [<pkg>]
+      dv check  [<pkg>] [--no-cran --no-cleanup --no-document]
+      dv examples [<pkg>]
+      dv check_doc  [<pkg>]
+      dv -h | --help
+      dv --version
+
+    Options:
+      -h --help           show this screen
+      --version           show version
+      -c, --check         automatically run check
+      -C, --no-check      don't run check
+      -R, --no-rstudio    don't create RStudio project file
+      -R, --no-cran       don't use the same settings as CRAN during check
+      -L, --no-cleanup    don't remove the check directory if successful
+      -D, --no-document   don't update and check documentation
+
 ## Installation
 
 You could install this to your `/usr/local/bin` (be sure to remove `.R`
