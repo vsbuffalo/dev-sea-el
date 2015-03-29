@@ -38,4 +38,10 @@ Github. In my `~/.zshrc`, I have:
 
     alias dv="Rscript /Users/vinceb/Projects/dvtools/dv.R"
 
-Please feel free to contribute!
+Please feel free to contribute! The License is GPL 2, following `devtools`.
+Also, I intentionally didn't include `release()`, because I was concerned a bug
+in `dv` may lead to packages being inappropriately sent to CRAN. My
+handwriting is terrible, so I also can't provide Hadley's awesome
+[guarantee](https://github.com/hadley/devtools/blob/master/man/release.Rd#L44).
+
+
