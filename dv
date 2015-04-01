@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env Rscript
 ## dv.R -- command line devtools wrapper
 VERSION <- "0.01"
 quiet <- suppressPackageStartupMessages
